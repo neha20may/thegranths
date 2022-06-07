@@ -10,7 +10,7 @@ public class VideoPlayerMain {
         Resolution resolution = new Resol480p();
         Device device1 = new Phone();
 
-        VideoPlayer phonePlayer = new PhonePlayer(device1, resolution);
-        phonePlayer.display();
+        VideoPlayer phonePlayer = new PhonePlayer(device1, resolution); //context
+        phonePlayer.display(); //context.executeStrategy(strategy)
     }
 }

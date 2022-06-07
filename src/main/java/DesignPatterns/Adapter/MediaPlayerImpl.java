@@ -1,5 +1,9 @@
 package DesignPatterns.Adapter;
 
+/**
+ * In MediaPlayerImpl, we could use Factory pattern to give us MediaPlayer object based on the format.
+ * Single Responsibility principle violated.
+ */
 public class MediaPlayerImpl implements MediaPlayer {
     MediaPlayerAdapter mediaPlayerAdapter;
     MediaPlayer mediaPlayer;
